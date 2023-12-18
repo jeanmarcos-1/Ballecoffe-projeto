@@ -7,3 +7,59 @@
         background: #1F1517;
     }
 }
+
+@layer utilities {
+    .teko-600 {
+        font-family: 'Teko', sans-serif;
+        font-weight: 600;
+    }
+
+}
+
+@layer utilities {
+    .inter-400 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+    }
+
+}
+
+@layer utilities {
+    .inter-500 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+    }
+
+}
+
+@layer utilities {
+    .inter-600 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+    }
+
+}
+
+@layer utilities {
+    .Epilogue-600 {
+        font-family: 'Epilogue', sans-serif;
+        font-weight: 600;
+    }
+
+}
+
+@layer utilities {
+    .montserrat-700 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+
+}
+
+@layer utilities {
+    .montserrat-800 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+    }
+
+}

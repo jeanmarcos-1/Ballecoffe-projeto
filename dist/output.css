@@ -539,3 +539,32 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.bg-color-body {
+  background: #1F1517;
+}
+
+.teko-600 {
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+}
+
+.inter-500 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.montserrat-700 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.montserrat-800 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
