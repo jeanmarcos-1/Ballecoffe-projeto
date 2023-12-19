@@ -63,3 +63,21 @@
     }
 
 }
+
+@layer utilities {
+    .max-width-1120 {
+        max-width: 1120px;
+    }
+}
+
+@layer utilities {
+    .ul-color {
+        color: rgba(255, 242, 231, 0.50);
+    }
+}
+
+@layer utilities {
+    .github-color {
+        color: #FFF2E7;
+    }
+}

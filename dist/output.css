@@ -540,6 +540,50 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[1\.5rem\] {
+  gap: 1.5rem;
+}
+
+.pb-\[1\.5rem\] {
+  padding-bottom: 1.5rem;
+}
+
+.pl-\[10rem\] {
+  padding-left: 10rem;
+}
+
+.pr-\[10rem\] {
+  padding-right: 10rem;
+}
+
+.pt-\[1\.5rem\] {
+  padding-top: 1.5rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -559,12 +603,19 @@ video {
   font-weight: 500;
 }
 
-.montserrat-700 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+.inter-600 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
-.montserrat-800 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
+.max-width-1120 {
+  max-width: 1120px;
+}
+
+.ul-color {
+  color: rgba(255, 242, 231, 0.50);
+}
+
+.github-color {
+  color: #FFF2E7;
 }
