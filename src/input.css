@@ -41,6 +41,14 @@
 }
 
 @layer utilities {
+    .inter-700 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+    }
+
+}
+
+@layer utilities {
     .Epilogue-600 {
         font-family: 'Epilogue', sans-serif;
         font-weight: 600;
