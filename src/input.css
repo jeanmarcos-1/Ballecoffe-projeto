@@ -115,6 +115,12 @@
 }
 
 @layer utilities {
+    .min-width-40 {
+        min-width: 40rem;
+    }
+}
+
+@layer utilities {
     .botão-transformador {
         transform: translate("0, -50%");
     }
