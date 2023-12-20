@@ -24,58 +24,58 @@
         </nav>
     </header>
 
-    <main>
-        <section>
-            <header>
-                <span>novidades</span>
-                <h1>Encontre a receita perfeita!</h1>
-                <hr>
-                <h2>Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
-            </header>
-            <div>
-                <figure><img src="assets/image-1.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-2.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-3.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-4.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-5.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-6.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-7.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-8.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-9.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-10.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-11.png" alt="imagem-ilustrativa"></figure>
-                <figure><img src="assets/image-12.png" alt="imagem-ilustrativa"></figure>
-            </div>
-        </section>
+    <main class="flex flex-col">
+        <div class="section-hero-color">
+            <section class="max-width-1120 h-[60vh] flex justify-between gap-[4rem] m-auto overflow-clip items-center">
+                <header class="flex flex-col">
+                    <span class="Epilogue-600 uppercase text-[0.875rem] span-color">novidades</span>
+                    <h1 class="montserrat-800 text-[3.5rem]">Encontre a receita perfeita!</h1>
+                    <hr class="border-[#A45A49]">
+                    <h2 class="inter-400 text-[#C7BAB3] text-[1.5rem]">Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
+                </header>
+                <div class="columns-4 m-auto">
+                    <figure class="rouded-[0.5rem]"><img src="assets/image-1.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-2.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-3.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-4.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-5.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-6.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-7.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-8.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-9.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-10.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-11.png" alt="imagem-ilustrativa"></figure>
+                    <figure><img class="max-width-100" src="assets/image-12.png" alt="imagem-ilustrativa"></figure>
+                </div>
+            </section>
+        </div>
 
-        <section>
-            <button>
-                <img src="assets/Button.svg" alt="imagem-do-botão">
+        <section class="w-[100%] max-width-1120 m-auto botão-transformador">
+            <button type="button" class="p-[1rem] rounded-[0.5rem] bg-[#A45A49]">
+                <img src="assets/chevrons-down (1).svg" alt="imagem-do-botão">
             </button>
-        
-        
         </section>
         
-        <section>
-            <header>
-                <span>receitas</span>
-                <h2>Confira as últimas receitas</h2>
-                <p>Dê uma olhada nas receitas mais amadas!</p>
+        <section class="flex flex-col max-width-1120 py-[3rem] px-[2rem] m-auto">
+            <header class="flex flex-col gap-[0.5rem]">
+                <span class="uppercase span-color Epilogue-600">receitas</span>
+                <h2 class="montserrat-700 text-[2rem] text-[#FFF2E7]">Confira as últimas receitas</h2>
+                <p class="inter-400 text-[1rem] text-[#C7BAB3]">Dê uma olhada nas receitas mais amadas!</p>
             </header>
             
-            <div>
-                <div>
-                    <header>
-                        <div>
-                            <span>em alta ​🔥​</span>
-                            <h3>Cappuccino ☕</h3>
+            <div class="px-[10rem] flex flex-row flex-wrap gap-[2rem]">
+                <div class="bg-[#241A1C] p-[2rem] rounded-[0.5rem] flex flex-col gap-[2rem]">
+                    <header class="flex flex-row justify-between items-end">
+                        <div class="flex flex-col gap-[0.5rem]">
+                            <span class="uppercase Epilogue-600 text-[#E7A80E] text-[0.875rem]">em alta ​🔥​</span>
+                            <h3 class="montserrat-700 text-[#FFF2E7] text-[1.5rem]">Cappuccino ☕</h3>
                         </div>
-                        <p>Extraordinário · 4/4 </p>
+                        <p class="inter-500 text-[#756A67]">Extraordinário · 4/4 </p>
                     </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/54322854?v=4" alt="imagem-avatar">
-                        <span>Rafaella Ballerini</span>
+                    <p class="inter-400 text-[#C7BAB3]">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                    <div class="flex flex-row items-center gap-[0.5rem]">
+                        <img class="rounded-full w-[1.5rem]" src="https://avatars.githubusercontent.com/u/54322854?v=4" alt="imagem-avatar">
+                        <span class="inter-600 text-[#C7BAB3]">Rafaella Ballerini</span>
                     </div>
                 </div>
             </div>

@@ -81,3 +81,33 @@
         color: #FFF2E7;
     }
 }
+
+@layer utilities {
+    .section-hero-color {
+        background: #181012;
+    }
+}
+
+@layer utilities {
+    .span-color {
+        color: #A45A49;
+    }
+}
+
+@layer utilities {
+    .bg-hr {
+        background: #A45A49;
+    }
+}
+
+@layer utilities {
+    .max-width-100 {
+        max-width: 100%;
+    }
+}
+
+@layer utilities {
+    .botão-transformador {
+        transform: translate("0, -50%");
+    }
+}
